@@ -11,6 +11,7 @@
   --dark-color-for-light-theme-logo: #000000;
   --light-color-for-dark-theme-logo: #ffffff;
   --project-list-border: #eeeeee;
+  --header-border: #ececec;
 }
 
 html {
@@ -99,6 +100,11 @@ img {
   align-items: center;
 }
 
+.header-nav-flex-box {
+  display: flex;
+  align-items: center;
+}
+
 .header-menu {
   display: flex;
   margin-left: 93px;
@@ -107,10 +113,12 @@ img {
 .header-menu .item + .item {
   margin-left: 50px;
 }
+.header-kontakt-box {
+  margin-left: auto;
+}
 
 .header-kontakt {
   display: flex;
-  margin-left: auto;
 }
 
 .header-kontakt .item + .item {
@@ -130,6 +138,7 @@ img {
   font-weight: 500;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  border-bottom: 1px solid var(--header-border);
 }
 
 .header-link {
@@ -150,7 +159,7 @@ img {
   color: var(--dark-color-for-light-theme-logo);
 }
 
-.header-contact {
+.header-contact-link {
   display: block;
   color: var(--header-contact-color);
   text-decoration: none;
@@ -180,7 +189,7 @@ img {
 }
 
 .heroe {
-  padding: 200px 0 200px;
+  padding: 200px 0;
   background-color: var(--contrast-background);
 }
 
@@ -197,6 +206,8 @@ img {
 }
 .order-button {
   margin-top: 30px;
+  min-width: 200px;
+  min-height: 50px;
   font-family: 'Roboto', 'Arial', sans-serif;
   color: var(--light-color-for-dark-theme-logo);
   background-color: var(--accent-color);
@@ -218,6 +229,10 @@ img {
 .advantages-flex {
   display: flex;
   text-align: left;
+}
+
+.advantages-flex > .item {
+  width: 270px;
 }
 
 .advantages-flex .item + .item {
@@ -271,8 +286,8 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+  margin-top: 10px;
   padding-bottom: 30px;
-  /* text-align: center; */
 }
 
 .team-member {
@@ -319,7 +334,7 @@ img {
   margin-top: 9px;
 }
 
-.footer-list:first-child {
+.footer-list {
   margin-top: 20px;
 }
 
@@ -329,9 +344,9 @@ img {
   justify-content: center;
 }
 
-.portfolio-select-menu {
+.portfolio {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 6px;
 }
 
 .portfolio-buttons {
@@ -364,7 +379,7 @@ img {
 }
 
 .project-samples {
-  padding-bottom: 6px;
+  margin-top: 50px;
 }
 
 .project-list-box {
