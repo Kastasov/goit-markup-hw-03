@@ -194,6 +194,11 @@ img {
   padding: 200px 0;
   background-color: var(--heroe-background);
   background-image: url(../images/main-page/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .heroe-header {
@@ -307,6 +312,28 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
+.clients {
+  background-color: var(--background-white);
+}
+
+.clients-flex {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.client-list-item {
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  border: 1px solid var(--social-madia-logo-color);
+  border-radius: 4px;
+}
+
+.clients-flex .client-list-item + .client-list-item {
+  margin-left: 30px;
+}
+
 .footer {
   background-color: var(--contrast-background);
   padding-top: 60px;
@@ -376,11 +403,17 @@ img {
 .portfolio-buttons.active {
   background-color: var(--accent-color);
   color: var(--light-color-for-dark-theme-logo);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .portfolio-buttons:hover,
 .portfolio-buttons:focus {
   background-color: var(--accent-color);
   color: var(--light-color-for-dark-theme-logo);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .flex-menu-item:not(:last-child) {
