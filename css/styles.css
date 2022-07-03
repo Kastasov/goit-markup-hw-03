@@ -183,20 +183,13 @@ img {
   color: var(--accent-color);
 }
 
-.section {
-  /* b15 */
-  padding-top: 94px;
-  padding-bottom: 94px;
-  text-align: center;
-}
-
 .heroe {
-  padding: 200px 0;
   background-color: var(--heroe-background);
   background-image: url(../images/main-page/hero-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: center;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -205,6 +198,7 @@ img {
   width: 700px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 106px;
   color: var(--light-color-for-dark-theme-logo);
   font-weight: 900;
   font-size: 44px;
@@ -214,8 +208,10 @@ img {
 }
 .order-button {
   margin-top: 30px;
+  margin-bottom: 106px;
   min-width: 200px;
   min-height: 50px;
+  padding-bottom: 200px;
   font-family: 'Roboto', 'Arial', sans-serif;
   color: var(--light-color-for-dark-theme-logo);
   background-color: var(--accent-color);
@@ -258,7 +254,7 @@ img {
   line-height: 1.7;
 }
 
-.about {
+.section.about {
   padding-top: 0px;
 }
 
@@ -370,7 +366,7 @@ img {
   margin-top: 9px;
 }
 
-.footer-list {
+.footer address {
   margin-top: 20px;
 }
 
@@ -380,9 +376,10 @@ img {
   justify-content: center;
 }
 
-.portfolio {
+.section {
   padding-top: 94px;
-  padding-bottom: 6px;
+  padding-bottom: 94px;
+  text-align: center;
 }
 
 .portfolio-buttons {
