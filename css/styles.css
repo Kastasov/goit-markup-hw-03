@@ -92,6 +92,12 @@ img {
   margin-right: auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+}
+
 /* .li-style {  использовался для отключения свойства списков до нормалайза и резет
      padding: 0px; 
      margin: 0px; 
@@ -170,9 +176,9 @@ img {
   padding-bottom: 32px;
 }
 
-.header-contact:hover,
-.header-contact:focus,
-.header-contact:active {
+.header-contact-link:hover,
+.header-contact-link:focus,
+.header-contact-link:active {
   color: var(--accent-color);
 }
 
@@ -184,6 +190,8 @@ img {
 }
 
 .heroe {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--heroe-background);
   background-image: url(../images/main-page/hero-background.jpg);
   background-repeat: no-repeat;
@@ -198,7 +206,6 @@ img {
   width: 700px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 106px;
   color: var(--light-color-for-dark-theme-logo);
   font-weight: 900;
   font-size: 44px;
@@ -208,10 +215,8 @@ img {
 }
 .order-button {
   margin-top: 30px;
-  margin-bottom: 106px;
   min-width: 200px;
   min-height: 50px;
-  padding-bottom: 200px;
   font-family: 'Roboto', 'Arial', sans-serif;
   color: var(--light-color-for-dark-theme-logo);
   background-color: var(--accent-color);
@@ -376,12 +381,6 @@ img {
   justify-content: center;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  text-align: center;
-}
-
 .portfolio-buttons {
   font-family: 'Roboto', 'Arial', sans-serif;
   background-color: var(--body-accent-background);
@@ -429,6 +428,7 @@ img {
 .project-item {
   margin-right: 30px;
   margin-bottom: 30px;
+  text-align: left;
 }
 .project-item:nth-child(3n) {
   margin-right: 0px;
